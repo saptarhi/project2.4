@@ -1,0 +1,20 @@
+@mixin title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 100%;
+}
+@mixin subtitle {
+  font-family: "Montserrat";
+  font-weight: 400;
+  line-height: 100%;
+}
+@mixin line {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  width: 100px;
+  height: 1px;
+  transform: translateX(-50%);
+}
